@@ -63,7 +63,7 @@ header{
 }
 
 section{
-    background-color: var(--cor-fundo);
+    background-color: beige;
     padding: var(--espacamento);
     margin: var(--espacamento);
     border-radius: var(--raio);
@@ -82,7 +82,7 @@ img{
 }
 
 h2{
-    color: var(--cor-texto-hero);
+    color: black;
     font-size: 26px;
     text-align: center;
     margin-bottom: 15px;
@@ -167,4 +167,11 @@ footer{
 .hero-botao:hover {
     background-color: var(--cor-destaque);
     transform: translateY(-2px);
+}
+
+.titulo-destaque {
+    color: white;
+    background-color: #1b4332;
+    padding: 20px;
+    border-radius: 10px;
 }
